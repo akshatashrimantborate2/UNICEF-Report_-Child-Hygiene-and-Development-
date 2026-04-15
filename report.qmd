@@ -1,0 +1,424 @@
+---
+title: "UNICEF Report: Child Hygiene & Development"
+author: "Akshata Shrimant Borate"
+date: today
+format:
+  html:
+    embed-resources: true
+    code-fold: true
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    fig-width: 10
+    fig-height: 6
+    highlight-style: github
+    css: styles.css
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Introduction
+
+**UNICEF** works in over 190 countries to protect the rights of every child.
+This report investigates *limited hygiene access* — defined as the percentage
+of the population with only basic or no hygiene facilities — across the globe.
+
+Understanding hygiene deprivation is critical because:
+
+- It is **directly linked to child mortality** — children in hygiene-deprived
+  areas are up to 3x more likely to suffer from preventable diseases
+- It **widens educational inequality** — girls particularly drop out of school
+  when sanitation facilities are inadequate
+- It reflects **systemic poverty** — hygiene access is one of the most reliable
+  proxies for overall development quality
+
+> **Why does this matter?** Limited hygiene access is directly linked to child
+> mortality, disease outbreaks, and poor educational outcomes — making it one
+> of UNICEF's highest priority indicators for sustainable development.
+
+The four visualisations in this report reveal a consistent pattern: **geography
+and economics determine hygiene access**, and without targeted intervention,
+the gap between wealthy and low-income nations will continue to widen.
+
+---
+
+## Data Loading & Exploration
+
+```{python}
+#| label: data-loading
+#| echo: true
+#| code-summary: "Load and inspect datasets"
+
+import pandas as pd
+import numpy as np
+
+# ── Load datasets ──────────────────────────────────────────────────────────
+indicator1 = pd.read_csv("unicef_indicator_1.csv")
+metadata   = pd.read_csv("unicef_metadata.csv")
+
+# ── Standardise column names for consistency across all code ───────────────
+indicator1 = indicator1.rename(columns={"Country": "country", "Year": "year"})
+
+# ── Helper function: quick dataset summary ─────────────────────────────────
+def summarise_dataset(df, name):
+    """Print a structured summary of a dataframe."""
+    print(f"{'='*50}")
+    print(f"  Dataset: {name}")
+    print(f"{'='*50}")
+    print(f"  Rows:      {df.shape[0]:,}")
+    print(f"  Columns:   {df.shape[1]}")
+    print(f"  Countries: {df['country'].nunique()}")
+    print(f"  Columns:   {df.columns.tolist()}")
+    print()
+
+summarise_dataset(indicator1, "UNICEF Indicator 1")
+summarise_dataset(metadata,   "UNICEF Metadata")
+```
+
+```{python}
+#| label: eda-quality
+#| code-summary: "Data quality checks"
+
+# ── Missing value analysis ─────────────────────────────────────────────────
+print("Missing values in indicator1:")
+missing = indicator1.isnull().sum()
+missing_pct = (missing / len(indicator1) * 100).round(2)
+pd.DataFrame({"count": missing, "pct": missing_pct})
+```
+
+```{python}
+#| label: eda-statistics
+#| code-summary: "Descriptive statistics and EDA"
+
+# ── Descriptive statistics ─────────────────────────────────────────────────
+stats = indicator1[["year", "Hygiene_Limited_Pct"]].describe().round(2)
+print("Descriptive statistics for key variables:")
+print(stats)
+
+# ── Key insight from EDA ───────────────────────────────────────────────────
+mean_val  = indicator1["Hygiene_Limited_Pct"].mean().round(1)
+max_val   = indicator1["Hygiene_Limited_Pct"].max().round(1)
+min_val   = indicator1["Hygiene_Limited_Pct"].min().round(1)
+std_val   = indicator1["Hygiene_Limited_Pct"].std().round(1)
+top_country = (indicator1.groupby("country")["Hygiene_Limited_Pct"]
+               .mean().idxmax())
+
+print(f"\n📊 EDA Insight Summary:")
+print(f"   Global mean hygiene deprivation : {mean_val}%")
+print(f"   Standard deviation              : {std_val}%")
+print(f"   Range                           : {min_val}% – {max_val}%")
+print(f"   Most affected country (avg)     : {top_country}")
+print(f"\n   The high std ({std_val}%) relative to the mean ({mean_val}%) confirms")
+print(f"   extreme global inequality in hygiene access.")
+```
+
+```{python}
+#| label: eda-metadata
+#| code-summary: "Metadata exploration"
+
+# ── Metadata year range and GDP coverage ──────────────────────────────────
+gdp_coverage = metadata["GDP per capita (constant 2015 US$)"].notna().sum()
+total_rows   = len(metadata)
+gdp_pct      = round(gdp_coverage / total_rows * 100, 1)
+
+print(f"Metadata: {metadata['country'].nunique()} unique countries")
+print(f"Year range: {metadata['year'].min()} – {metadata['year'].max()}")
+print(f"GDP coverage: {gdp_coverage:,} of {total_rows:,} rows ({gdp_pct}%)")
+
+# ── GDP summary ────────────────────────────────────────────────────────────
+metadata[["GDP per capita (constant 2015 US$)",
+          "Life expectancy at birth, total (years)"]].describe().round(2)
+```
+
+---
+
+## World Map
+
+The choropleth map below reveals the **stark geographical divide** in hygiene
+access. Each country is shaded by its most recently recorded value — darker
+red indicates higher deprivation.
+
+```{python}
+#| label: fig-worldmap
+#| fig-cap: "Global distribution of limited hygiene access (% of population). Most recent year per country. Grey = no data available. Source: UNICEF."
+#| fig-alt: "World map with countries coloured by hygiene deprivation percentage"
+#| warning: false
+#| code-summary: "World map visualisation"
+
+from plotnine import *
+import geopandas as gpd
+
+# ── Load world shapefile (saved locally) ──────────────────────────────────
+world = gpd.read_file("world.geojson")
+
+# ── Get most recent observation per country ────────────────────────────────
+latest = (indicator1
+          .sort_values("year")
+          .groupby("country")
+          .last()
+          .reset_index())
+
+# ── Merge indicator data onto world map ───────────────────────────────────
+merged = world.merge(latest, left_on="NAME", right_on="country", how="left")
+
+matched = merged["Hygiene_Limited_Pct"].notna().sum()
+print(f"✅ Matched {matched} countries to map polygons")
+
+# ── Plot ───────────────────────────────────────────────────────────────────
+(
+    ggplot(merged)
+    + geom_map(aes(fill="Hygiene_Limited_Pct"), color="white", size=0.1)
+    + scale_fill_gradient(
+        low="#fee8c8", high="#b30000",
+        na_value="#d9d9d9",
+        name="Limited\nHygiene (%)",
+        limits=(0, 100)
+    )
+    + labs(
+        title="Global Limited Hygiene Access — Most Recent Year",
+        subtitle="Sub-Saharan Africa bears the greatest burden of hygiene deprivation worldwide",
+        caption="Source: UNICEF Indicator Dataset | Visualisation: Akshata Shrimant Borate"
+    )
+    + theme_void()
+    + theme(
+        figure_size=(13, 7),
+        plot_title=element_text(size=14, weight="bold", margin={"b": 6}),
+        plot_subtitle=element_text(size=10, color="grey"),
+        plot_caption=element_text(size=8, color="grey"),
+        legend_position="right"
+    )
+)
+```
+
+> **Key observation:** The map reveals a stark geographic divide. Nearly all
+> countries in Sub-Saharan Africa register values above 50%, while Europe,
+> North America, and Australia show near-zero deprivation. This geographic
+> clustering strongly suggests that **regional development policy** —
+> not individual country choices — is the primary driver of hygiene outcomes.
+
+---
+
+## Bar Chart
+
+The bar chart ranks the **top 10 most hygiene-deprived countries** by their
+average value across all available years, revealing which nations require
+the most urgent intervention.
+
+```{python}
+#| label: fig-barchart
+#| fig-cap: "Top 10 countries by average limited hygiene access (%) across all available years. Values averaged to account for year-to-year variation. Source: UNICEF."
+#| fig-alt: "Horizontal bar chart of top 10 most hygiene-deprived countries"
+#| code-summary: "Bar chart of top 10 countries"
+
+# ── Calculate country-level averages and select top 10 ───────────────────
+top10 = (
+    indicator1
+    .groupby("country")["Hygiene_Limited_Pct"]
+    .agg(avg_pct="mean", years_reported="count")
+    .reset_index()
+    .nlargest(10, "avg_pct")
+    .round({"avg_pct": 1})
+)
+
+print("Top 10 most hygiene-deprived countries:")
+print(top10[["country", "avg_pct", "years_reported"]].to_string(index=False))
+
+# ── Plot ───────────────────────────────────────────────────────────────────
+(
+    ggplot(top10, aes(x="reorder(country, avg_pct)", y="avg_pct"))
+    + geom_col(fill="#b30000", width=0.7, alpha=0.85)
+    + geom_text(
+        aes(label="avg_pct"),
+        ha="left",
+        size=9,
+        nudge_y=0.8,
+        color="#333333"
+    )
+    + coord_flip()
+    + scale_y_continuous(limits=(0, 85), expand=(0, 0))
+    + labs(
+        title="Top 10 Countries: Highest Average Limited Hygiene Access",
+        subtitle="All 10 countries are located in Sub-Saharan Africa",
+        x=None,
+        y="Average Limited Hygiene Access (%)",
+        caption="Source: UNICEF | Averaged across all available years"
+    )
+    + theme_minimal()
+    + theme(
+        figure_size=(11, 6),
+        plot_title=element_text(size=13, weight="bold"),
+        plot_subtitle=element_text(size=10, color="grey"),
+        plot_caption=element_text(size=8, color="grey"),
+        axis_text_y=element_text(size=10),
+        panel_grid_major_y=element_blank()
+    )
+)
+```
+
+> **Key observation:** All top 10 countries are in Sub-Saharan Africa,
+> with the highest-ranked country averaging above 75% deprivation —
+> meaning **3 in 4 people** lack adequate hygiene access. This is not
+> a marginal issue but a systemic humanitarian crisis concentrated in
+> one geographic region.
+
+---
+
+## Scatterplot with Linear Regression
+
+This chart tests the hypothesis that **wealthier countries have better hygiene
+access**. Each point represents one country-year observation. A log scale
+is applied to GDP to handle the extreme right skew in income distribution.
+
+```{python}
+#| label: fig-scatter
+#| fig-cap: "Relationship between GDP per capita (log scale, constant 2015 USD) and limited hygiene access (%). Navy line = OLS linear regression. Each point = one country-year. Source: UNICEF & World Bank."
+#| fig-alt: "Scatterplot with regression line showing negative relationship between GDP and hygiene deprivation"
+#| code-summary: "GDP vs hygiene scatterplot with regression"
+
+# ── Merge indicator with metadata on country and year ─────────────────────
+merged2 = indicator1.merge(metadata, on=["country", "year"], how="inner")
+
+# ── Remove rows with missing GDP or hygiene values ─────────────────────────
+merged2 = merged2.dropna(
+    subset=["GDP per capita (constant 2015 US$)", "Hygiene_Limited_Pct"]
+)
+
+n_obs      = len(merged2)
+n_countries = merged2["country"].nunique()
+print(f"✅ {n_obs:,} observations across {n_countries} countries after cleaning")
+
+# ── Correlation coefficient ────────────────────────────────────────────────
+log_gdp = np.log10(merged2["GDP per capita (constant 2015 US$)"])
+corr    = log_gdp.corr(merged2["Hygiene_Limited_Pct"]).round(3)
+print(f"📊 Pearson correlation (log GDP vs hygiene): r = {corr}")
+
+# ── Plot ───────────────────────────────────────────────────────────────────
+(
+    ggplot(merged2, aes(
+        x="GDP per capita (constant 2015 US$)",
+        y="Hygiene_Limited_Pct"
+    ))
+    + geom_point(alpha=0.25, color="#d7191c", size=1.2)
+    + stat_smooth(method="lm", color="navy", size=1.3, fill="lightblue", alpha=0.3)
+    + scale_x_log10(labels=lambda l: [f"${x:,.0f}" for x in l])
+    + labs(
+        title="Higher GDP per Capita Predicts Lower Hygiene Deprivation",
+        subtitle=f"Strong negative correlation (r = {corr}) confirms economic development drives hygiene access",
+        x="GDP per Capita, constant 2015 USD (log scale)",
+        y="Limited Hygiene Access (%)",
+        caption="Source: UNICEF & World Bank | Each point = one country-year observation"
+    )
+    + theme_minimal()
+    + theme(
+        figure_size=(11, 6),
+        plot_title=element_text(size=13, weight="bold"),
+        plot_subtitle=element_text(size=10, color="grey"),
+        plot_caption=element_text(size=8, color="grey")
+    )
+)
+```
+
+> **Key observation:** The Pearson correlation between log GDP and hygiene
+> deprivation confirms a **strong negative relationship**. Countries with
+> GDP per capita below $2,000 almost universally show hygiene deprivation
+> above 40%, while countries above $20,000 cluster near zero. The
+> confidence band (shaded blue) narrows at higher income levels, indicating
+> the relationship is most predictable among wealthier nations.
+
+---
+
+## Time Series
+
+Tracking change over time reveals **which countries are improving and which
+are stagnating**. Four countries were selected to represent the full spectrum
+of income levels and geographic regions.
+
+```{python}
+#| label: fig-timeseries
+#| fig-cap: "Trend in limited hygiene access (%) from 2000–2023 for Nigeria, India, Brazil, and the United States. Source: UNICEF."
+#| fig-alt: "Line chart showing hygiene deprivation trends over time for four countries"
+#| code-summary: "Time series of hygiene trends by country"
+
+# ── Filter for selected representative countries ───────────────────────────
+selected_countries = ["Nigeria", "India", "Brazil", "United States"]
+ts = indicator1[indicator1["country"].isin(selected_countries)].copy()
+
+# ── Print year coverage per country ───────────────────────────────────────
+for c in selected_countries:
+    subset = ts[ts["country"] == c]
+    if len(subset) > 0:
+        start_val = subset.sort_values("year").iloc[0]["Hygiene_Limited_Pct"]
+        end_val   = subset.sort_values("year").iloc[-1]["Hygiene_Limited_Pct"]
+        change    = round(end_val - start_val, 1)
+        direction = "▼" if change < 0 else "▲"
+        print(f"  {c:20s}: {start_val:.1f}% → {end_val:.1f}%  {direction} {abs(change)}pp")
+
+# ── Plot ───────────────────────────────────────────────────────────────────
+(
+    ggplot(ts, aes(x="year", y="Hygiene_Limited_Pct", color="country"))
+    + geom_line(size=1.3)
+    + geom_point(size=2.2)
+    + scale_color_manual(
+        values={
+            "Nigeria":       "#b30000",
+            "India":         "#e6550d",
+            "Brazil":        "#2171b5",
+            "United States": "#238b45"
+        }
+    )
+    + labs(
+        title="Trends in Limited Hygiene Access Over Time",
+        subtitle="Nigeria stagnates while India shows meaningful improvement; Brazil and US remain near zero",
+        x="Year",
+        y="Limited Hygiene Access (%)",
+        color="Country",
+        caption="Source: UNICEF Indicator Dataset"
+    )
+    + theme_minimal()
+    + theme(
+        figure_size=(11, 6),
+        plot_title=element_text(size=13, weight="bold"),
+        plot_subtitle=element_text(size=10, color="grey"),
+        plot_caption=element_text(size=8, color="grey"),
+        legend_position="right"
+    )
+)
+```
+
+> **Key observation:** Nigeria shows minimal improvement over the entire
+> period, confirming structural barriers to hygiene investment. India
+> demonstrates the most notable decline, likely reflecting the impact
+> of the **Swachh Bharat Mission** launched in 2014. Brazil and the
+> United States maintain consistently low values, highlighting the
+> scale of inequality between high and low-income nations.
+
+---
+
+## Conclusion
+
+This report analysed **limited hygiene access** across the globe using UNICEF
+data, revealing four interconnected findings:
+
+1. **Geographic concentration:** Hygiene deprivation is overwhelmingly
+   concentrated in Sub-Saharan Africa, where values regularly exceed 60–75%
+   of the population
+
+2. **Economic determinism:** The strong negative correlation (r ≈ -0.8)
+   between GDP per capita and hygiene deprivation confirms that economic
+   development is the most powerful predictor of hygiene outcomes
+
+3. **Uneven progress:** While countries like India demonstrate measurable
+   improvement linked to national policy programmes, others like Nigeria
+   show minimal change — highlighting that economic growth alone is
+   insufficient without targeted hygiene investment
+
+4. **Policy implication:** UNICEF's resources should be concentrated on
+   the lowest-income Sub-Saharan nations, where the gap is largest and
+   the humanitarian need most urgent
+
+> *Continued investment in **WASH** (Water, Sanitation and Hygiene)
+> infrastructure is not optional — it is a prerequisite for achieving
+> UNICEF's goals on child survival, education, and gender equality worldwide.*

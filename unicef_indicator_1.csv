@@ -1,0 +1,614 @@
+Country,ISO2,ISO3,Numeric_Code,Year,Hygiene_Limited_Pct,Data_Flag,Hygiene_Limited_Pct_Rounded
+Andorra,AD,AND,20,2000,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2001,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2002,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2003,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2004,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2005,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2006,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2007,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2008,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2009,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2010,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2011,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2012,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2013,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2014,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2015,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2016,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2017,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2018,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2019,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2020,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2021,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2022,0.0,Full_Access_Or_No_Data,0.0
+Andorra,AD,AND,20,2023,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2000,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2001,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2002,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2003,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2004,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2005,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2006,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2007,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2008,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2009,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2010,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2011,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2012,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2013,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2014,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2015,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2016,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2017,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2018,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2019,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2020,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2021,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2022,0.0,Full_Access_Or_No_Data,0.0
+Azerbaijan,AZ,AZE,31,2023,0.0,Full_Access_Or_No_Data,0.0
+Bangladesh,BD,BGD,50,2013,59.23295,Reported,59.23
+Bangladesh,BD,BGD,50,2014,59.23295,Reported,59.23
+Bangladesh,BD,BGD,50,2015,59.23295,Reported,59.23
+Bangladesh,BD,BGD,50,2016,59.23295,Reported,59.23
+Bangladesh,BD,BGD,50,2017,59.23295,Reported,59.23
+Bangladesh,BD,BGD,50,2018,59.23295,Reported,59.23
+Bangladesh,BD,BGD,50,2019,59.23295,Reported,59.23
+Bangladesh,BD,BGD,50,2020,59.23295,Reported,59.23
+Bangladesh,BD,BGD,50,2021,59.23295,Reported,59.23
+Cambodia,KH,KHM,116,2020,21.85430000000001,Reported,21.85
+Cambodia,KH,KHM,116,2021,21.85430000000001,Reported,21.85
+Cambodia,KH,KHM,116,2022,21.85430000000001,Reported,21.85
+Cambodia,KH,KHM,116,2023,21.85430000000001,Reported,21.85
+China,CN,CHN,156,2014,63.91,Reported,63.91
+China,CN,CHN,156,2015,63.91,Reported,63.91
+China,CN,CHN,156,2016,63.91,Reported,63.91
+China,CN,CHN,156,2017,63.91,Reported,63.91
+China,CN,CHN,156,2018,63.91,Reported,63.91
+China,CN,CHN,156,2019,63.91,Reported,63.91
+China,CN,CHN,156,2020,63.91,Reported,63.91
+China,CN,CHN,156,2021,63.91,Reported,63.91
+China,CN,CHN,156,2022,63.91,Reported,63.91
+Czech Republic,CZ,CZE,203,2000,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2001,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2002,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2003,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2004,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2005,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2006,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2007,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2008,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2009,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2010,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2011,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2012,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2013,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2014,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2015,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2016,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2017,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2018,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2019,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2020,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2021,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2022,0.0,Full_Access_Or_No_Data,0.0
+Czech Republic,CZ,CZE,203,2023,0.0,Full_Access_Or_No_Data,0.0
+Egypt,EG,EGY,818,2000,98.1064837787262,Reported,98.11
+Egypt,EG,EGY,818,2001,95.32092229395948,Reported,95.32
+Egypt,EG,EGY,818,2002,92.53536080919277,Reported,92.54
+Egypt,EG,EGY,818,2003,90.826,Reported,90.83
+Egypt,EG,EGY,818,2004,90.826,Reported,90.83
+Egypt,EG,EGY,818,2005,90.826,Reported,90.83
+Egypt,EG,EGY,818,2006,90.826,Reported,90.83
+Egypt,EG,EGY,818,2007,90.826,Reported,90.83
+Egypt,EG,EGY,818,2008,90.826,Reported,90.83
+Egypt,EG,EGY,818,2009,90.826,Reported,90.83
+Egypt,EG,EGY,818,2010,90.826,Reported,90.83
+Egypt,EG,EGY,818,2011,67.46530744629126,Reported,67.47
+Egypt,EG,EGY,818,2012,64.67974596152453,Reported,64.68
+Egypt,EG,EGY,818,2013,61.89418447675779,Reported,61.89
+Egypt,EG,EGY,818,2014,59.10862299199016,Reported,59.11
+Egypt,EG,EGY,818,2015,56.32306150722343,Reported,56.32
+Egypt,EG,EGY,818,2016,53.5375000224567,Reported,53.54
+Egypt,EG,EGY,818,2017,50.75193853768997,Reported,50.75
+Egypt,EG,EGY,818,2018,47.96637705292324,Reported,47.97
+Egypt,EG,EGY,818,2019,45.1808155681565,Reported,45.18
+Egypt,EG,EGY,818,2020,42.39525408338977,Reported,42.4
+Egypt,EG,EGY,818,2021,39.60969259862304,Reported,39.61
+Egypt,EG,EGY,818,2022,36.8241311138563,Reported,36.82
+Egypt,EG,EGY,818,2023,36.8241311138563,Reported,36.82
+Estonia,EE,EST,233,2000,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2001,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2002,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2003,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2004,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2005,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2006,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2007,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2008,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2009,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2010,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2011,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2012,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2013,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2014,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2015,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2016,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2017,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2018,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2019,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2020,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2021,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2022,0.0,Full_Access_Or_No_Data,0.0
+Estonia,EE,EST,233,2023,0.0,Full_Access_Or_No_Data,0.0
+Fiji,FJ,FJI,242,2013,34.5,Reported,34.5
+Fiji,FJ,FJI,242,2014,34.5,Reported,34.5
+Fiji,FJ,FJI,242,2015,34.5,Reported,34.5
+Fiji,FJ,FJI,242,2016,34.5,Reported,34.5
+Fiji,FJ,FJI,242,2017,34.5,Reported,34.5
+Fiji,FJ,FJI,242,2018,34.5,Reported,34.5
+Fiji,FJ,FJI,242,2019,34.5,Reported,34.5
+Fiji,FJ,FJI,242,2020,34.5,Reported,34.5
+Fiji,FJ,FJI,242,2021,34.5,Reported,34.5
+Georgia,GE,GEO,268,2017,12.08333333333333,Reported,12.08
+Georgia,GE,GEO,268,2018,12.08333333333333,Reported,12.08
+Georgia,GE,GEO,268,2019,12.08333333333333,Reported,12.08
+Georgia,GE,GEO,268,2020,12.08333333333333,Reported,12.08
+Georgia,GE,GEO,268,2021,12.08333333333333,Reported,12.08
+Georgia,GE,GEO,268,2022,12.08333333333333,Reported,12.08
+Georgia,GE,GEO,268,2023,12.08333333333333,Reported,12.08
+Ghana,GH,GHA,288,2012,32.45182571428586,Reported,32.45
+Ghana,GH,GHA,288,2013,32.45182571428586,Reported,32.45
+Ghana,GH,GHA,288,2014,32.336225714286,Reported,32.34
+Ghana,GH,GHA,288,2015,31.6948757142859,Reported,31.69
+Ghana,GH,GHA,288,2016,31.0535257142858,Reported,31.05
+Ghana,GH,GHA,288,2017,31.89986999999996,Reported,31.9
+Ghana,GH,GHA,288,2018,32.74621428571436,Reported,32.75
+Ghana,GH,GHA,288,2019,33.59255857142853,Reported,33.59
+Ghana,GH,GHA,288,2020,35.08025285714302,Reported,35.08
+Ghana,GH,GHA,288,2021,36.56794714285707,Reported,36.57
+Ghana,GH,GHA,288,2022,38.05564142857156,Reported,38.06
+Ghana,GH,GHA,288,2023,39.54333571428606,Reported,39.54
+Guinea-Bissau,GW,GNB,624,2010,45.21799999999993,Reported,45.22
+Guinea-Bissau,GW,GNB,624,2011,45.21799999999993,Reported,45.22
+Guinea-Bissau,GW,GNB,624,2012,45.21799999999993,Reported,45.22
+Guinea-Bissau,GW,GNB,624,2013,45.21799999999993,Reported,45.22
+Guinea-Bissau,GW,GNB,624,2014,45.21799999999993,Reported,45.22
+Guinea-Bissau,GW,GNB,624,2015,45.4518250000001,Reported,45.45
+Guinea-Bissau,GW,GNB,624,2016,44.77639999999997,Reported,44.78
+Guinea-Bissau,GW,GNB,624,2017,46.54292857142809,Reported,46.54
+Guinea-Bissau,GW,GNB,624,2018,49.39657142857072,Reported,49.4
+Guinea-Bissau,GW,GNB,624,2019,52.25021428571335,Reported,52.25
+Guinea-Bissau,GW,GNB,624,2020,55.1038571428569,Reported,55.1
+Guinea-Bissau,GW,GNB,624,2021,57.95749999999953,Reported,57.96
+Guinea-Bissau,GW,GNB,624,2022,60.81114285714216,Reported,60.81
+Guinea-Bissau,GW,GNB,624,2023,63.66478571428468,Reported,63.66
+Honduras,HN,HND,340,2013,40.0,Reported,40.0
+Honduras,HN,HND,340,2014,40.0,Reported,40.0
+Honduras,HN,HND,340,2015,40.0,Reported,40.0
+Honduras,HN,HND,340,2016,40.0,Reported,40.0
+Honduras,HN,HND,340,2017,40.0,Reported,40.0
+Honduras,HN,HND,340,2018,40.0,Reported,40.0
+Honduras,HN,HND,340,2019,40.0,Reported,40.0
+Honduras,HN,HND,340,2020,40.0,Reported,40.0
+Honduras,HN,HND,340,2021,40.0,Reported,40.0
+"Iran, Islamic Republic of",IR,IRN,364,2017,4.5822,Reported,4.58
+"Iran, Islamic Republic of",IR,IRN,364,2018,4.5822,Reported,4.58
+"Iran, Islamic Republic of",IR,IRN,364,2019,4.5822,Reported,4.58
+"Iran, Islamic Republic of",IR,IRN,364,2020,4.5822,Reported,4.58
+"Iran, Islamic Republic of",IR,IRN,364,2021,4.5822,Reported,4.58
+"Iran, Islamic Republic of",IR,IRN,364,2022,4.5822,Reported,4.58
+"Iran, Islamic Republic of",IR,IRN,364,2023,4.5822,Reported,4.58
+Iraq,IQ,IRQ,368,2017,25.6071,Reported,25.61
+Iraq,IQ,IRQ,368,2018,25.6071,Reported,25.61
+Iraq,IQ,IRQ,368,2019,25.6071,Reported,25.61
+Iraq,IQ,IRQ,368,2020,25.6071,Reported,25.61
+Iraq,IQ,IRQ,368,2021,25.6071,Reported,25.61
+Iraq,IQ,IRQ,368,2022,25.6071,Reported,25.61
+Iraq,IQ,IRQ,368,2023,25.6071,Reported,25.61
+Kenya,KE,KEN,404,2012,53.09104820207627,Reported,53.09
+Kenya,KE,KEN,404,2013,52.92654940717439,Reported,52.93
+Kenya,KE,KEN,404,2014,52.76205061227252,Reported,52.76
+Kenya,KE,KEN,404,2015,52.59755181737064,Reported,52.6
+Kenya,KE,KEN,404,2016,52.43305302246877,Reported,52.43
+Kenya,KE,KEN,404,2017,52.2685542275669,Reported,52.27
+Kenya,KE,KEN,404,2018,52.10405543266502,Reported,52.1
+Kenya,KE,KEN,404,2019,51.93955663776315,Reported,51.94
+Kenya,KE,KEN,404,2020,51.77505784286127,Reported,51.78
+Kenya,KE,KEN,404,2021,51.6105590479594,Reported,51.61
+Kenya,KE,KEN,404,2022,51.44606025305752,Reported,51.45
+Kenya,KE,KEN,404,2023,51.28156145815565,Reported,51.28
+Kuwait,KW,KWT,414,2000,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2001,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2002,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2003,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2004,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2005,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2006,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2007,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2008,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2009,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2010,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2011,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2012,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2013,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2014,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2015,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2016,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2017,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2018,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2019,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2020,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2021,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2022,0.0,Full_Access_Or_No_Data,0.0
+Kuwait,KW,KWT,414,2023,0.0,Full_Access_Or_No_Data,0.0
+Lao People's Democratic Republic,LA,LAO,418,2018,20.80970000000001,Reported,20.81
+Lao People's Democratic Republic,LA,LAO,418,2019,20.80970000000001,Reported,20.81
+Lao People's Democratic Republic,LA,LAO,418,2020,20.80970000000001,Reported,20.81
+Lao People's Democratic Republic,LA,LAO,418,2021,20.80970000000001,Reported,20.81
+Lao People's Democratic Republic,LA,LAO,418,2022,20.80970000000001,Reported,20.81
+Lao People's Democratic Republic,LA,LAO,418,2023,20.80970000000001,Reported,20.81
+Lithuania,LT,LTU,440,2011,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2012,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2013,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2014,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2015,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2016,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2017,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2018,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2019,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2020,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2021,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2022,1.0,Reported,1.0
+Lithuania,LT,LTU,440,2023,1.0,Reported,1.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2000,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2001,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2002,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2003,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2004,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2005,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2006,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2007,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2008,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2009,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2010,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2011,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2012,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2013,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2014,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2015,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2016,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2017,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2018,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2019,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2020,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2021,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2022,0.0,Full_Access_Or_No_Data,0.0
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,2023,0.0,Full_Access_Or_No_Data,0.0
+Malawi,MW,MWI,454,2013,40.65940000000001,Reported,40.66
+Malawi,MW,MWI,454,2014,40.65940000000001,Reported,40.66
+Malawi,MW,MWI,454,2015,40.65940000000001,Reported,40.66
+Malawi,MW,MWI,454,2016,40.65940000000001,Reported,40.66
+Malawi,MW,MWI,454,2017,40.65940000000001,Reported,40.66
+Malawi,MW,MWI,454,2018,40.65940000000001,Reported,40.66
+Malawi,MW,MWI,454,2019,40.65940000000001,Reported,40.66
+Malawi,MW,MWI,454,2020,40.65940000000001,Reported,40.66
+Malawi,MW,MWI,454,2021,40.65940000000001,Reported,40.66
+Malaysia,MY,MYS,458,2000,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2001,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2002,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2003,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2004,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2005,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2006,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2007,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2008,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2009,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2010,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2011,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2012,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2013,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2014,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2015,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2016,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2017,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2018,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2019,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2020,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2021,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2022,0.0,Full_Access_Or_No_Data,0.0
+Malaysia,MY,MYS,458,2023,0.0,Full_Access_Or_No_Data,0.0
+Maldives,MV,MDV,462,2014,20.21276595744681,Reported,20.21
+Maldives,MV,MDV,462,2015,20.21276595744681,Reported,20.21
+Maldives,MV,MDV,462,2016,20.21276595744681,Reported,20.21
+Maldives,MV,MDV,462,2017,20.21276595744681,Reported,20.21
+Maldives,MV,MDV,462,2018,20.21276595744681,Reported,20.21
+Maldives,MV,MDV,462,2019,20.21276595744681,Reported,20.21
+Maldives,MV,MDV,462,2020,20.21276595744681,Reported,20.21
+Maldives,MV,MDV,462,2021,20.21276595744681,Reported,20.21
+Maldives,MV,MDV,462,2022,20.21276595744681,Reported,20.21
+Malta,MT,MLT,470,2000,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2001,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2002,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2003,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2004,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2005,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2006,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2007,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2008,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2009,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2010,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2011,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2012,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2013,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2014,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2015,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2016,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2017,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2018,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2019,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2020,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2021,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2022,0.0,Full_Access_Or_No_Data,0.0
+Malta,MT,MLT,470,2023,0.0,Full_Access_Or_No_Data,0.0
+"Micronesia, Federated States of",FM,FSM,583,2017,27.2728,Reported,27.27
+"Micronesia, Federated States of",FM,FSM,583,2018,27.2728,Reported,27.27
+"Micronesia, Federated States of",FM,FSM,583,2019,27.2728,Reported,27.27
+"Micronesia, Federated States of",FM,FSM,583,2020,27.2728,Reported,27.27
+"Micronesia, Federated States of",FM,FSM,583,2021,27.2728,Reported,27.27
+"Micronesia, Federated States of",FM,FSM,583,2022,27.2728,Reported,27.27
+"Micronesia, Federated States of",FM,FSM,583,2023,27.2728,Reported,27.27
+Mongolia,MN,MNG,496,2019,27.58620000000001,Reported,27.59
+Mongolia,MN,MNG,496,2020,27.58620000000001,Reported,27.59
+Mongolia,MN,MNG,496,2021,27.58620000000001,Reported,27.59
+Mongolia,MN,MNG,496,2022,27.58620000000001,Reported,27.59
+Mongolia,MN,MNG,496,2023,27.58620000000001,Reported,27.59
+Morocco,MA,MAR,504,2018,46.17389999999999,Reported,46.17
+Morocco,MA,MAR,504,2019,46.17389999999999,Reported,46.17
+Morocco,MA,MAR,504,2020,46.17389999999999,Reported,46.17
+Morocco,MA,MAR,504,2021,46.17389999999999,Reported,46.17
+Morocco,MA,MAR,504,2022,46.17389999999999,Reported,46.17
+Morocco,MA,MAR,504,2023,46.17389999999999,Reported,46.17
+Nepal,NP,NPL,524,2017,30.44709999999655,Reported,30.45
+Nepal,NP,NPL,524,2018,22.84270000000001,Reported,22.84
+Nepal,NP,NPL,524,2019,22.84270000000001,Reported,22.84
+Nepal,NP,NPL,524,2020,22.84270000000001,Reported,22.84
+Nepal,NP,NPL,524,2021,22.84270000000001,Reported,22.84
+Nepal,NP,NPL,524,2022,22.84270000000001,Reported,22.84
+Nepal,NP,NPL,524,2023,22.84270000000001,Reported,22.84
+Nicaragua,NI,NIC,558,2017,33.07516666666667,Reported,33.08
+Nicaragua,NI,NIC,558,2018,33.07516666666667,Reported,33.08
+Nicaragua,NI,NIC,558,2019,33.07516666666667,Reported,33.08
+Nicaragua,NI,NIC,558,2020,33.07516666666667,Reported,33.08
+Nicaragua,NI,NIC,558,2021,33.07516666666667,Reported,33.08
+Nicaragua,NI,NIC,558,2022,33.07516666666667,Reported,33.08
+Nicaragua,NI,NIC,558,2023,33.07516666666667,Reported,33.08
+Niger,NE,NER,562,2017,59.40344329896916,Reported,59.4
+Niger,NE,NER,562,2018,57.73602783505147,Reported,57.74
+Niger,NE,NER,562,2019,56.0686123711338,Reported,56.07
+Niger,NE,NER,562,2020,54.40119690721658,Reported,54.4
+Niger,NE,NER,562,2021,52.7337814432989,Reported,52.73
+Niger,NE,NER,562,2022,51.06636597938123,Reported,51.07
+Niger,NE,NER,562,2023,49.398950515464,Reported,49.4
+Nigeria,NG,NGA,566,2011,47.80373926553762,Reported,47.8
+Nigeria,NG,NGA,566,2012,47.80373926553762,Reported,47.8
+Nigeria,NG,NGA,566,2013,47.80373926553762,Reported,47.8
+Nigeria,NG,NGA,566,2014,47.80373926553762,Reported,47.8
+Nigeria,NG,NGA,566,2015,46.9511858757071,Reported,46.95
+Nigeria,NG,NGA,566,2016,48.17545748587577,Reported,48.18
+Nigeria,NG,NGA,566,2017,49.39972909604535,Reported,49.4
+Nigeria,NG,NGA,566,2018,50.62400070621493,Reported,50.62
+Nigeria,NG,NGA,566,2019,51.84827231638474,Reported,51.85
+Nigeria,NG,NGA,566,2020,53.07254392655432,Reported,53.07
+Nigeria,NG,NGA,566,2021,54.2968155367239,Reported,54.3
+Nigeria,NG,NGA,566,2022,55.52108714689348,Reported,55.52
+Nigeria,NG,NGA,566,2023,56.74535875706306,Reported,56.75
+Oman,OM,OMN,512,2000,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2001,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2002,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2003,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2004,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2005,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2006,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2007,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2008,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2009,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2010,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2011,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2012,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2013,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2014,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2015,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2016,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2017,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2018,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2019,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2020,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2021,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2022,0.0,Full_Access_Or_No_Data,0.0
+Oman,OM,OMN,512,2023,0.0,Full_Access_Or_No_Data,0.0
+Pakistan,PK,PAK,586,2017,14.5273,Reported,14.53
+Pakistan,PK,PAK,586,2018,14.5273,Reported,14.53
+Pakistan,PK,PAK,586,2019,14.5273,Reported,14.53
+Pakistan,PK,PAK,586,2020,14.5273,Reported,14.53
+Pakistan,PK,PAK,586,2021,14.5273,Reported,14.53
+Pakistan,PK,PAK,586,2022,14.5273,Reported,14.53
+Pakistan,PK,PAK,586,2023,14.5273,Reported,14.53
+"Palestinian Territory, Occupied",PS,PSE,275,2017,12.55890000000001,Reported,12.56
+"Palestinian Territory, Occupied",PS,PSE,275,2018,12.55890000000001,Reported,12.56
+"Palestinian Territory, Occupied",PS,PSE,275,2019,12.55890000000001,Reported,12.56
+"Palestinian Territory, Occupied",PS,PSE,275,2020,12.55890000000001,Reported,12.56
+"Palestinian Territory, Occupied",PS,PSE,275,2021,12.55890000000001,Reported,12.56
+"Palestinian Territory, Occupied",PS,PSE,275,2022,12.55890000000001,Reported,12.56
+"Palestinian Territory, Occupied",PS,PSE,275,2023,12.55890000000001,Reported,12.56
+Philippines,PH,PHL,608,2019,20.24254999999999,Reported,20.24
+Philippines,PH,PHL,608,2020,20.24254999999999,Reported,20.24
+Philippines,PH,PHL,608,2021,20.24254999999999,Reported,20.24
+Philippines,PH,PHL,608,2022,20.24254999999999,Reported,20.24
+Philippines,PH,PHL,608,2023,20.24254999999999,Reported,20.24
+Rwanda,RW,RWA,646,2019,53.5529,Reported,53.55
+Rwanda,RW,RWA,646,2020,53.5529,Reported,53.55
+Rwanda,RW,RWA,646,2021,53.5529,Reported,53.55
+Rwanda,RW,RWA,646,2022,53.5529,Reported,53.55
+Rwanda,RW,RWA,646,2023,53.5529,Reported,53.55
+San Marino,SM,SMR,674,2000,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2001,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2002,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2003,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2004,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2005,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2006,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2007,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2008,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2009,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2010,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2011,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2012,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2013,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2014,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2015,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2016,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2017,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2018,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2019,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2020,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2021,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2022,0.0,Full_Access_Or_No_Data,0.0
+San Marino,SM,SMR,674,2023,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2000,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2001,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2002,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2003,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2004,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2005,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2006,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2007,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2008,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2009,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2010,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2011,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2012,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2013,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2014,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2015,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2016,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2017,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2018,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2019,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2020,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2021,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2022,0.0,Full_Access_Or_No_Data,0.0
+Saudi Arabia,SA,SAU,682,2023,0.0,Full_Access_Or_No_Data,0.0
+Serbia,RS,SRB,688,2013,13.05,Reported,13.05
+Serbia,RS,SRB,688,2014,13.05,Reported,13.05
+Serbia,RS,SRB,688,2015,14.10000000000001,Reported,14.1
+Serbia,RS,SRB,688,2016,14.10000000000001,Reported,14.1
+Serbia,RS,SRB,688,2017,14.10000000000001,Reported,14.1
+Serbia,RS,SRB,688,2018,14.10000000000001,Reported,14.1
+Serbia,RS,SRB,688,2019,14.10000000000001,Reported,14.1
+Serbia,RS,SRB,688,2020,14.10000000000001,Reported,14.1
+Serbia,RS,SRB,688,2021,14.10000000000001,Reported,14.1
+Serbia,RS,SRB,688,2022,14.10000000000001,Reported,14.1
+Serbia,RS,SRB,688,2023,14.10000000000001,Reported,14.1
+Singapore,SG,SGP,702,2000,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2001,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2002,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2003,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2004,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2005,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2006,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2007,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2008,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2009,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2010,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2011,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2012,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2013,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2014,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2015,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2016,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2017,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2018,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2019,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2020,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2021,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2022,0.0,Full_Access_Or_No_Data,0.0
+Singapore,SG,SGP,702,2023,0.0,Full_Access_Or_No_Data,0.0
+Solomon Islands,SB,SLB,90,2016,28.4091,Reported,28.41
+Solomon Islands,SB,SLB,90,2017,28.4091,Reported,28.41
+Solomon Islands,SB,SLB,90,2018,28.4091,Reported,28.41
+Solomon Islands,SB,SLB,90,2019,28.4091,Reported,28.41
+Solomon Islands,SB,SLB,90,2020,28.4091,Reported,28.41
+Solomon Islands,SB,SLB,90,2021,28.4091,Reported,28.41
+Solomon Islands,SB,SLB,90,2022,28.4091,Reported,28.41
+Solomon Islands,SB,SLB,90,2023,28.4091,Reported,28.41
+Somalia,SO,SOM,706,2019,13.2701,Reported,13.27
+Somalia,SO,SOM,706,2020,13.2701,Reported,13.27
+Somalia,SO,SOM,706,2021,13.2701,Reported,13.27
+Somalia,SO,SOM,706,2022,13.2701,Reported,13.27
+Somalia,SO,SOM,706,2023,13.2701,Reported,13.27
+Sudan,SD,SDN,736,2017,14.3284,Reported,14.33
+Sudan,SD,SDN,736,2018,14.3284,Reported,14.33
+Sudan,SD,SDN,736,2019,14.3284,Reported,14.33
+Sudan,SD,SDN,736,2020,14.3284,Reported,14.33
+Sudan,SD,SDN,736,2021,14.3284,Reported,14.33
+Sudan,SD,SDN,736,2022,14.3284,Reported,14.33
+Sudan,SD,SDN,736,2023,14.3284,Reported,14.33
+Syrian Arab Republic,SY,SYR,760,2018,5.226500000000002,Reported,5.23
+Syrian Arab Republic,SY,SYR,760,2019,5.226500000000002,Reported,5.23
+Syrian Arab Republic,SY,SYR,760,2020,5.226500000000002,Reported,5.23
+Syrian Arab Republic,SY,SYR,760,2021,5.226500000000002,Reported,5.23
+Syrian Arab Republic,SY,SYR,760,2022,5.226500000000002,Reported,5.23
+Syrian Arab Republic,SY,SYR,760,2023,5.226500000000002,Reported,5.23
+Tajikistan,TJ,TJK,762,2017,46.57142857142857,Reported,46.57
+Tajikistan,TJ,TJK,762,2018,46.57142857142857,Reported,46.57
+Tajikistan,TJ,TJK,762,2019,46.57142857142857,Reported,46.57
+Tajikistan,TJ,TJK,762,2020,46.57142857142857,Reported,46.57
+Tajikistan,TJ,TJK,762,2021,46.57142857142857,Reported,46.57
+Tajikistan,TJ,TJK,762,2022,46.57142857142857,Reported,46.57
+Tajikistan,TJ,TJK,762,2023,46.57142857142857,Reported,46.57
+Tunisia,TN,TUN,788,2017,49.95911999999953,Reported,49.96
+Tunisia,TN,TUN,788,2018,46.19823999999971,Reported,46.2
+Tunisia,TN,TUN,788,2019,42.4373599999999,Reported,42.44
+Tunisia,TN,TUN,788,2020,40.1899,Reported,40.19
+Tunisia,TN,TUN,788,2021,40.1899,Reported,40.19
+Tunisia,TN,TUN,788,2022,40.1899,Reported,40.19
+Tunisia,TN,TUN,788,2023,40.1899,Reported,40.19
+Uganda,UG,UGA,800,2003,82.50233973727416,Reported,82.5
+Uganda,UG,UGA,800,2004,82.50233973727416,Reported,82.5
+Uganda,UG,UGA,800,2005,82.50233973727416,Reported,82.5
+Uganda,UG,UGA,800,2006,82.50233973727416,Reported,82.5
+Uganda,UG,UGA,800,2007,82.50233973727416,Reported,82.5
+Uganda,UG,UGA,800,2008,82.0316855500821,Reported,82.03
+Uganda,UG,UGA,800,2009,81.56103136288995,Reported,81.56
+Uganda,UG,UGA,800,2010,81.09037717569788,Reported,81.09
+Uganda,UG,UGA,800,2011,80.61972298850571,Reported,80.62
+Uganda,UG,UGA,800,2012,80.14906880131355,Reported,80.15
+Uganda,UG,UGA,800,2013,79.6784146141215,Reported,79.68
+Uganda,UG,UGA,800,2014,79.20776042692931,Reported,79.21
+Uganda,UG,UGA,800,2015,78.07367564272238,Reported,78.07
+Uganda,UG,UGA,800,2016,76.67215056000771,Reported,76.67
+Uganda,UG,UGA,800,2017,75.27062547729338,Reported,75.27
+Uganda,UG,UGA,800,2018,73.86910039457871,Reported,73.87
+Uganda,UG,UGA,800,2019,72.46757531186438,Reported,72.47
+Uganda,UG,UGA,800,2020,71.06605022914971,Reported,71.07
+Uganda,UG,UGA,800,2021,69.66452514643527,Reported,69.66
+Uganda,UG,UGA,800,2022,68.26300006372071,Reported,68.26
+Uganda,UG,UGA,800,2023,67.33212916819843,Reported,67.33
+Vanuatu,VU,VUT,548,2016,34.5912,Reported,34.59
+Vanuatu,VU,VUT,548,2017,34.5912,Reported,34.59
+Vanuatu,VU,VUT,548,2018,34.5912,Reported,34.59
+Vanuatu,VU,VUT,548,2019,34.5912,Reported,34.59
+Vanuatu,VU,VUT,548,2020,34.5912,Reported,34.59
+Vanuatu,VU,VUT,548,2021,34.5912,Reported,34.59
+Vanuatu,VU,VUT,548,2022,34.5912,Reported,34.59
+Vanuatu,VU,VUT,548,2023,34.5912,Reported,34.59
+Zimbabwe,ZW,ZWE,716,2014,32.0,Reported,32.0
+Zimbabwe,ZW,ZWE,716,2015,32.0,Reported,32.0
+Zimbabwe,ZW,ZWE,716,2016,32.0,Reported,32.0
+Zimbabwe,ZW,ZWE,716,2017,32.0,Reported,32.0
+Zimbabwe,ZW,ZWE,716,2018,32.0,Reported,32.0
+Zimbabwe,ZW,ZWE,716,2019,32.0,Reported,32.0
+Zimbabwe,ZW,ZWE,716,2020,32.0,Reported,32.0
+Zimbabwe,ZW,ZWE,716,2021,32.0,Reported,32.0
+Zimbabwe,ZW,ZWE,716,2022,32.0,Reported,32.0
